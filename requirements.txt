@@ -5,3 +5,4 @@ Pygments==2.11.2
 pymdown-extensions==9.3
 tkinterweb==3.12.2
 zipp==3.7.0
+customtkinter

@@ -34,6 +34,7 @@ Args:
 """
 from pathlib import Path
 from pymdownx import emoji
+import os
 
 cur_file = Path()
 BOLD_MD_SYNTAX = ("**", "__")
@@ -108,6 +109,7 @@ EXTENSION_CONFIGS = {
         }
     }
 }
+icon_dir = os.path.join(os.path.dirname(__file__), "icons")
 DEFAULT_MD_STRING = """# Heading 1
 ## Heading 2
 ### Heading 3
